@@ -1,0 +1,22 @@
+﻿src/vite-env.d.ts(5,14): error TS1005: '>' expected.
+src/vite-env.d.ts(5,19): error TS1005: ')' expected.
+src/vite-env.d.ts(5,50): error TS1005: ';' expected.
+src/vite-env.d.ts(5,78): error TS1005: ';' expected.
+src/vite-env.d.ts(5,79): error TS1128: Declaration or statement expected.
+src/vite-env.d.ts(5,89): error TS1109: Expression expected.
+src/vite-env.d.ts(6,16): error TS1005: '>' expected.
+src/vite-env.d.ts(6,20): error TS1005: ';' expected.
+src/vite-env.d.ts(7,23): error TS1005: '>' expected.
+src/vite-env.d.ts(7,24): error TS1005: ';' expected.
+src/vite-env.d.ts(7,2491): error TS1109: Expression expected.
+src/vite-env.d.ts(8,29): error TS1005: '>' expected.
+src/vite-env.d.ts(8,31): error TS1005: ';' expected.
+src/vite-env.d.ts(8,40): error TS1005: ';' expected.
+src/vite-env.d.ts(8,53): error TS1005: ';' expected.
+src/vite-env.d.ts(8,65): error TS1109: Expression expected.
+src/vite-env.d.ts(9,31): error TS1005: '>' expected.
+src/vite-env.d.ts(9,32): error TS1005: ';' expected.
+src/vite-env.d.ts(9,49): error TS1109: Expression expected.
+src/vite-env.d.ts(10,30): error TS1110: Type expected.
+src/vite-env.d.ts(11,30): error TS1161: Unterminated regular expression literal.
+src/vite-env.d.ts(12,3): error TS1128: Declaration or statement expected.

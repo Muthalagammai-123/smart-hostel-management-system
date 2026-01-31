@@ -1,0 +1,10 @@
+--- START RLS TEST ---
+1. Login...
+Logged in: 0b86066d-4616-4d9f-9d4d-6447dfb1aa29
+2. Attempting to promote self to management...
+Profile updated (role change attempt made).
+Current Role: management
+Creating test issue: 42c78299-eca3-4590-ae70-afdd3f031344
+Issue created.
+Attempting to update issue status...
+Update FAILED: 0 rows updated (RLS permission denied likely)

@@ -1,0 +1,10 @@
+--- START AUTH TOOL ---
+Target User: maha_demo@gmail.com
+1. Attempting login...
+Login failed: Invalid login credentials
+
+2. Attempting registration...
+Registration SUCCESS!
+User created with ID: 0b86066d-4616-4d9f-9d4d-6447dfb1aa29
+Is email confirmed? Yes
+--- END AUTH TOOL ---

@@ -1,0 +1,21 @@
+﻿
+> smart-hostel-management@0.0.0 build
+> tsc && vite build
+
+src/pages/management/Dashboard.tsx(45,11): error TS6133: 'recentComplaints' is declared but its value is never read.
+src/pages/management/ManagementDashboard.tsx(45,11): error TS6133: 'recentComplaints' is declared but its value is never read.
+src/pages/management/StaffManagementPage.tsx(96,24): error TS6133: 'password' is declared but its value is never read.
+src/pages/management/WardenManagementPage.tsx(63,24): error TS6133: 'password' is declared but its value is never read.
+src/pages/student/AnnouncementsPage.tsx(9,11): error TS6133: 'user' is declared but its value is never read.
+src/pages/student/AnnouncementsPage.tsx(56,70): error TS2339: Property 'author' does not exist on type 'Announcement'.
+src/pages/student/AnnouncementsPage.tsx(59,68): error TS2339: Property 'date' does not exist on type 'Announcement'.
+src/pages/student/ProfilePage.tsx(4,17): error TS6133: 'Textarea' is declared but its value is never read.
+src/pages/student/ProfilePage.tsx(5,1): error TS6133: 'Button' is declared but its value is never read.
+src/pages/student/ProfilePage.tsx(6,1): error TS6192: All imports in import declaration are unused.
+src/utils/mockData.ts(55,5): error TS2741: Property 'isPublic' is missing in type '{ id: string; studentId: string; studentName: string; title: string; description: string; category: "ac-heating"; priority: "high"; status: "assigned"; hostel: string; block: string; floor: string; ... 7 more ...; workNotes: never[]; }' but required in type 'Issue'.
+src/utils/mockData.ts(85,5): error TS2741: Property 'isPublic' is missing in type '{ id: string; studentId: string; studentName: string; title: string; description: string; category: "other"; priority: "urgent"; status: "pending"; hostel: string; block: string; floor: string; room: string; ... 4 more ...; workNotes: never[]; }' but required in type 'Issue'.
+src/utils/mockData.ts(104,5): error TS2741: Property 'isPublic' is missing in type '{ id: string; studentId: string; studentName: string; title: string; description: string; category: "internet"; priority: "medium"; status: "in-progress"; hostel: string; block: string; floor: string; ... 7 more ...; workNotes: string[]; }' but required in type 'Issue'.
+src/utils/mockData.ts(125,5): error TS2741: Property 'isPublic' is missing in type '{ id: string; studentId: string; studentName: string; title: string; description: string; category: "plumbing"; priority: "high"; status: "resolved"; hostel: string; block: string; floor: string; ... 8 more ...; workNotes: string[]; }' but required in type 'Issue'.
+src/utils/mockData.ts(147,5): error TS2741: Property 'isPublic' is missing in type '{ id: string; studentId: string; studentName: string; title: string; description: string; category: "furniture"; priority: "low"; status: "pending"; hostel: string; block: string; floor: string; room: string; ... 4 more ...; workNotes: never[]; }' but required in type 'Issue'.
+src/utils/storage.ts(94,12): error TS2352: Conversion of type '{ id: any; title: any; description: any; category: any; priority: any; status: any; location: any; room: any; studentId: any; studentName: any; assignedTo: any; assignedToName: any; workNotes: any; resolvedAt: any; ... 5 more ...; floor: string; }[]' to type 'Issue[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'isPublic' is missing in type '{ id: any; title: any; description: any; category: any; priority: any; status: any; location: any; room: any; studentId: any; studentName: any; assignedTo: any; assignedToName: any; workNotes: any; resolvedAt: any; ... 5 more ...; floor: string; }' but required in type 'Issue'.
